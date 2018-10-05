@@ -8,3 +8,7 @@ sd(y)
 z = as.numeric(pro$Highclass)
 mean(z)
 sd(z)
+
+hist(x, main = "Histogram of Pro$American")
+plot(z, main = "Plot of high class", y = "frequency")
+plot(y, main = "Plot of Pro$Uber", ylab = "frequency")
